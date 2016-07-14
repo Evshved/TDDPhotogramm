@@ -1,2 +1,9 @@
-%h1 Hello
+%h2 Hi, it's tutorial TIME
+
 = link_to "New Post", new_post_path
+%br
+%br
+-@posts.each do |post|
+  =image_tag post.image.url(:medium)
+  =post.caption
+

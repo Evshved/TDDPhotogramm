@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+require 'spec_helper'
 
 feature 'Creating posts' do
   it 'needs an image to create a post' do
